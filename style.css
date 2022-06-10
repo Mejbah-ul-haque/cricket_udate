@@ -1,0 +1,1143 @@
+
+
+  html/*
+  html5doctor.com Reset Stylesheet
+  v1.6.1
+  Last Updated: 2010-09-17
+  Author: Richard Clark - http://richclarkdesign.com
+  Twitter: @rich_clark
+  */
+  html, body, div, span, object, iframe,
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+  abbr, address, cite, code,
+  del, dfn, em, img, ins, kbd, q, samp,
+  small, strong, sub, sup, var,
+  b, i,
+  dl, dt, dd, ol, ul, li,
+  fieldset, form, label, legend,
+  table, caption, tbody, tfoot, thead, tr, th, td,
+  article, aside, canvas, details, figcaption, figure,
+  footer, header, hgroup, menu, nav, section, summary,
+  time, mark, audio, video {
+   margin:0;
+   padding:0;
+   border:0;
+   outline:0;
+   font-size:100%;
+   vertical-align:baseline;
+   background:transparent;
+  }
+  body {
+   line-height:1;
+  }
+  article,aside,details,figcaption,figure,
+  footer,header,hgroup,menu,nav,section {
+   display:block;
+  }
+  nav ul {
+   list-style:none;
+  }
+  blockquote, q {
+   quotes:none;
+  }
+  blockquote:before, blockquote:after,
+  q:before, q:after {
+   content:'';
+   content:none;
+  }
+  a {
+   margin:0;
+   padding:0;
+   font-size:100%;
+   vertical-align:baseline;
+   background:transparent;
+  }
+  /* change colours to suit your needs */
+  ins {
+   background-color:#ff9;
+   color:#000;
+   text-decoration:none;
+  }
+  /* change colours to suit your needs */
+  mark {
+   background-color:#ff9;
+   color:#000;
+   font-style:italic;
+   font-weight:bold;
+  }
+  del {
+   text-decoration: line-through;
+  }
+  abbr[title], dfn[title] {
+   border-bottom:1px dotted;
+   cursor:help;
+  }
+  table {
+   border-collapse:collapse;
+   border-spacing:0;
+  }
+  /* change border colour to suit your needs */
+  hr {
+   display:block;
+   height:1px;
+   border:0;
+   border-top:1px solid #cccccc;
+   margin:1em 0;
+   padding:0;
+  }
+  input, select {
+   vertical-align:middle;
+  }
+ 
+ :root{
+     --primary: #ddd;
+     --dark: #333;
+     --light: #fff;
+     /* --shadow: 0 1px 5px rgba(104, 104, 104, 0.8); */
+ }
+ 
+ html {
+     box-sizing: border-box;
+     font-family : 'Solaimanlipi', 'Arial', 'sans-serif';
+ }
+ 
+ body {
+     line-height: 1.4;
+     font-family: solaimanlipi;
+     margin-top: 0;
+    font-weight: lighter;
+    /* background: var(--primary); */
+    /* background: url(img/bangladesh1.jpg); */
+ }
+ 
+
+ 
+ 
+ .btn {
+     background: var(--dark);
+     color: var(--light);
+     padding: 0.6rem 1.3rem;
+     text-decoration: none;
+     border: 0;
+ }
+ 
+ img {
+     max-width: 100%;
+ }
+ 
+ 
+
+ /*My Code  */
+
+ * { text-decoration: none; 
+  font-family: solaimanlipi; }
+
+  .body{
+    /* background: url(img/bangladesh1.jpg); */
+    /* background: var(--primary); */
+    /* background-color: rgb(235, 238, 243); */
+  }
+ 
+  
+ .btn:hover{
+    font-family: solaimanlipi;
+    background-color: #ccc;
+    color: #000;
+ }
+ 
+
+/* .header-background{
+  background: url(img/bangladesh.jpg);
+  background-size: cover;
+ background-repeat: initial;
+ background-attachment: fixed;
+} */
+
+/* series-marker */
+#series-marker{
+  font-size: 1rem;
+  font-weight: normal;
+  float: left;
+  margin-bottom: 0px;
+  }
+ 
+  #series-marker-1{
+  font-size: 1.2rem;
+  font-weight: normal;
+  float: right;
+  margin-bottom: 20px;
+  }
+
+  #series-marker-left{
+    font-size: 1.3rem;
+    font-weight: normal;
+    float: left;
+    margin-bottom: 20px;
+    }
+  #series-marker-center{
+    font-size: 1.3rem;
+  font-weight: normal;
+  text-align: center;
+  float: none;
+  
+  }
+  #series-marker-number{
+    font-size: 1.3rem;
+    font-weight: bold;
+    float: left;
+    margin-bottom: 0px;  
+  }
+
+  #cetagory-name{
+    font-size: 18px;
+    font-weight: 900;
+    color: #000;
+    text-align: center;
+    padding-bottom: 7px;
+  }
+  
+  #bg-body{
+    height: 50px;
+   background: #b30000;
+   /* box-shadow: var(--shadow); */
+   
+  }
+
+  #bg-body h5{
+    color: #ccc;
+    font-size: 22px;
+  }
+
+  #img-bg-body{
+    height: 110px;
+    color:darkblue;
+   background: #ccc;
+    border-radius: 5px;
+  }
+
+/* Transition */
+  .image-div{  
+    overflow: hidden;
+    }
+    
+    .card-img-top{
+      /* transition-delay: 1s; */
+      transition-duration: .5s; 
+    }
+    
+    .image-div:hover .card-img-top{
+      transform: scale(1.2);
+    }
+
+    #horizontal-lead:hover .card-img-top{
+      transform: scale(1.2);
+    }
+    #horizontal-short:hover .card-img-top{
+      transform: scale(1.2);
+    }
+    #vertical-lead:hover .card-img-top{
+      transform: scale(1.2);
+    }
+    #vertical-short:hover .card-img-top{
+      transform: scale(1.2);
+    }
+    #vartical-short-extra:hover .card-img-top{
+      transform: scale(1.2);
+    }
+    #fresh-lead:hover .card-img-top{
+      transform: scale(1.2);
+    }
+    
+
+    
+/*Spacial Cards */ 
+/* fresh-lead */
+
+#fresh-lead{
+  border-style: none;
+  text-decoration: none;
+  background: var(--light);
+  box-shadow: var(--shadow);
+}
+
+#fresh-lead:hover{
+  background: rgb(193, 255, 178);
+}
+
+#fresh-lead h5{
+  font-size: 1.4rem;
+  font-weight: normal;
+  line-height: normal;
+  color: #000;
+  text-decoration: none;
+  text-align: left;
+  color: #333333; font-size: 1.1rem; font-weight: 600;
+}
+#fresh-lead h5:hover{
+  color: blue;
+}
+#fresh-lead a{
+  text-decoration: none;
+}
+
+#fresh-lead h6{
+  font-size: 1.1rem;
+  font-weight: normal;
+  line-height: normal;
+  color: #666666;
+  text-align: justify;
+  font-size: 1rem; color: #fff; background: #b30000;
+}
+
+
+ /* fresh-short */
+ #fresh-short{
+  /* border-radius: 5px; */
+  border-style: none;
+  box-shadow: var(--shadow);
+  /* border: .4rem solid #b30000; */
+  background: #b30000;
+}
+#fresh-short .card-body{
+  
+}
+
+#fresh-short h5{
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 26px;
+  color: var(--light);
+  text-align: left;
+  text-decoration: none;
+}
+
+#fresh-short a{
+  text-decoration: none;
+}
+
+#fresh-short h5:hover{
+  color: yellow;
+}
+
+
+
+
+ /* horizontal-lead */
+
+ #horizontal-lead{
+  border-style: none;
+  text-align: left;
+  background: var(--light);
+  /* border: 0.4rem solid var(--light); */
+  box-shadow: var(--shadow);
+  /* border-radius: 7px; */
+}
+
+#horizontal-lead h5{
+ font-size: 1.5rem;
+ font-weight: 600;
+ line-height: normal;
+ color: #333;
+ /* color: #d9534f; */
+}
+#horizontal-lead h3{
+  color: #333;
+  /* color: #d9534f; */
+ }
+ #horizontal-lead h3:hover{
+   color: blue;
+ }
+#horizontal-lead a{
+  
+  text-decoration: none;
+}
+
+#horizontal-lead h5:hover{
+  color: blue;
+}
+
+#horizontal-lead h6{
+  font-size: 1.1rem;
+  line-height: normal;
+}
+
+#horizontal-lead p{
+  font-size: 1.1rem;
+  line-height: normal;
+  color: #666;
+}
+
+#horizontal-lead p:hover{
+  color: blue;
+}
+
+#horizontal-lead h6{
+  font-size: 1.1rem;
+}
+@media (max-width: 576px){
+ 
+ #horizontal-lead{
+   margin-bottom: 0;
+ }
+  
+}
+@media (max-width: 768px){
+ 
+ #horizontal-lead{
+   margin-bottom: 0;
+ }
+ }
+
+@media (max-width: 992px){
+ 
+ #horizontal-lead{
+   margin-bottom: 0;
+ }
+ #horizontal-lead p{
+  display: none;
+}
+}
+
+/* horizontal-short */
+
+#horizontal-short{
+  /* border-style: none; */
+  margin-bottom: 32px;
+  background: var(--light);
+  /* border: 0.4rem solid var(--light); */
+  /* box-shadow: var(--shadow); */
+}
+
+#horizontal-short .card-body a{
+  text-decoration: none;
+}
+
+#horizontal-short .card-body h5{
+  font-size: 1.2rem;
+  line-height: normal;
+  color: #000;
+  font-weight: 600;
+  line-height: normal;
+}
+#horizontal-short .card-body p{
+  font-size: 16px;
+  line-height: normal;
+  color: var(--dark);
+  font-weight: normal;
+  text-align: left; 
+}
+
+#horizontal-short .card-img{
+  background: var(--light);
+}
+
+/* #horizontal-short .card-body:hover{
+  background: #052962;
+} */
+
+#horizontal-short .card-body h5:hover{
+  color: blue;
+  height: 57%;
+}
+@media (max-width: 576px){
+  
+}
+@media (max-width: 768px){
+ 
+}
+@media (max-width: 992px){
+  
+}
+ /* horizontal-short-square */
+
+ #horizontal-short-square {
+  border: 0.4rem solid #052962;
+  box-shadow: var(--shadow);
+  text-align: left;
+  background: #052962;
+
+}
+#horizontal-short-square .card{
+   background: #052962;
+}
+#horizontal-short-square .card-body{
+  padding: 0px 5px 5px 15px;
+  
+}
+
+#horizontal-short-square .card-body a{
+  text-decoration: none;
+  font-family: solimanlipi
+}
+
+#horizontal-short-square .card-body h6{
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: #ffcc80;
+  font-weight: 500;
+}
+
+#horizontal-short-square .card-body h6:hover{
+  color: yellow;
+}
+
+#horizontal-short-square .card-body p{
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: red;
+  font-weight: normal;
+}
+#horizontal-short-square .card-body p:hover{
+  color: blue;
+}
+
+
+@media (max-width: 576px){
+  
+}
+@media (max-width: 768px){
+ 
+}
+@media (max-width: 992px){
+  
+}
+
+/* vertical-lead */
+#vertical-lead{
+  border-style: none;
+}
+#vertical-lead h2{
+  font-size: 30px;
+  font-weight: bold;
+  line-height: normal;
+  color: yellow;
+  text-decoration: none;
+}
+
+#vertical-lead .card{
+  background: var(--light);
+  box-shadow: var(--shadow);
+  /* border: .4rem solid var(--light); */
+  overflow: hidden;
+}
+
+#vertical-lead .card-body{
+  background: var(--light);
+  
+}
+#vertical-lead h2:hover{
+  color: blue;
+}
+
+#vertical-lead a {
+  text-decoration: none;
+}
+#vertical-lead h6{
+  font-size: 17px;
+  font-weight: normal;
+  line-height: normal;
+  color: var(--dark);
+  text-align: justify;
+}
+#vertical-lead h6:hover{
+  color: blue;
+}
+
+ /* vertical-short */
+
+ #vertical-short{
+  /* border-style: none; */
+  padding: 0;
+  background: url(img/bangladesh1.jpg);
+  /* border: 1px solid #ccc; */
+  box-shadow: var(--shadow);
+  height: 370px;
+}
+
+#vertical-short h6{
+ font-size: 1.2rem;
+ letter-spacing: .5px;
+ font-weight:600;
+ line-height: normal;
+ line-height: normal;
+ color: #000;
+}
+#vertical-short h6:hover{
+  color: blue;
+}
+
+#vertical-short .card-body{
+  background: var(--light);
+}
+
+#vertical-short p{
+ font-size: 16px;
+ line-height: normal;
+ color: var(--dark);
+ font-weight: normal;
+}
+
+#vertical-short a{
+ text-decoration: none;
+}
+
+#vertical-short p:hover{
+ color: blue;
+}
+
+}
+
+/* vartical-short-extra */
+
+#vartical-short-extra{
+  background: #052962;
+  box-shadow: var(--shadow);
+  background: var(--light);
+}
+#vartical-short-extra:hover{
+  background: #;
+}
+#vartical-short-extra h4{
+  color: #fff;
+  font-size: 1.3rem;
+  line-height: normal;
+}
+#vartical-short-extra h4:hover{
+  color: yellow;
+}
+#vartical-short-extra a{
+text-decoration: none;
+}
+#vartical-short-extra .card-body{
+  background: #052962;
+}
+
+
+
+/* Header */ 
+.header{
+  /* background: var(--primary); */
+  /* background: url(img/bangladesh.jpg); */
+}
+
+#golf{
+  font-size: 3rem;
+  font-weight: 900;
+ 
+}
+#golf a{
+  text-decoration: none;
+  color: rgb(206, 6, 6);
+  border-left: ;
+}
+
+/* Brand Logo */
+
+#brand-logo{
+  width: 450px;
+  height: 77px;
+ }
+
+ #sm-id i{
+  font-size: 2.5rem;
+  color: #007acc;
+}
+#sm-id i:hover{
+  color: #000;
+}
+#sm-idd i{
+  font-size: 2.5rem;
+  color: #b30000;
+} 
+#sm-idd i:hover{
+  color: #000;
+}
+
+ @media (max-width: 576px){
+  #brand-logo{
+  width: 300px;
+  height: 55px;
+   }
+  #sm-id{
+    display: none;
+  }
+  #sm-idd{
+   display: none;
+ }
+ }
+ @media (max-width: 768px){
+  #sm-id{
+    display: none;
+  }
+  #sm-idd{
+   display: none;
+ }
+ }
+ 
+ @media (max-width: 992px){
+ 
+ }
+
+ 
+ /* Navigation */
+
+.navigation{
+  margin: 0 auto;
+ }
+
+ .main-nav{
+     margin: 0 auto;     
+ }
+ 
+ .main-nav ul{
+     display: grid;
+     grid-gap:15px;
+     padding: 0;
+     list-style: none;
+     grid-template-columns: repeat(6, 1fr);
+ }
+ .main-nav ul li{
+  position: relative;
+ }
+
+ .main-nav ul li a {
+     font-family: solaimanlipi;
+     
+     background: white;
+     display: block;
+     text-decoration: none;
+     padding: 0.3rem;
+     text-align: center;
+     color: #000;
+     font-size: 1.4rem;
+     font-weight: 600;   
+     box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8); 
+ }
+ 
+ .main-nav ul li a:hover {
+     background: var(--dark);
+     color: var(--light);
+ }
+ 
+.main-nav ul li ul{
+  display: none;
+  position: absolute;
+  background-color: var(--primary);
+  z-index: 999;
+}
+
+.main-nav ul li:hover ul{
+  display: block;
+  
+}
+.main-nav ul li ul li{
+  position: relative;
+}
+.main-nav ul li ul li a{
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 8px 40px;
+  background:  rgb(255, 255, 255);
+  box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+}
+.main-nav ul li ul li a:hover{
+  background: var(--dark);
+     color: var(--light);
+}
+
+ @media (max-width: 576px){
+   .main-nav ul {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .main-nav ul li a{
+    padding: .3rem;
+  }
+ }
+ @media (max-width: 768px){
+  #cricket{
+    display: none;
+  }
+  .main-nav ul {
+    grid-template-columns: repeat(3, 1fr);
+  }
+ }
+ 
+ @media (max-width: 992px){
+   #cricket{
+     display: none;
+   }
+  .main-nav ul {
+    grid-template-columns: repeat(3, 1fr);
+  }
+ }
+ 
+
+ /* carousel-box */
+
+.carousel-box {
+  border-style: none;
+  box-shadow: var(--shadow);
+  background: var(--dark);
+}
+
+.carousel-item .carousel-artile-background{
+  height: 100%;
+  font-family: solaimanlipi;
+  background-color: var(--light);  
+}
+
+.carousel-item .card{
+  background: var(--light);
+  border-style: none;
+}
+
+.carousel-item-anchor h6{
+  margin: 0 auto;
+  font-size: 18px;
+  padding-bottom: 10px;
+  color: yellow;
+  background:#052962;
+  font-weight: 500;
+  text-align: center;
+  
+}
+
+.carousel-item-anchor h3 {
+  font-size: 25px;
+  font-weight: 500;
+  color: #fff;
+  padding: 5px 0 0 5px;
+  line-height: normal;
+  letter-spacing: .2px;
+  text-decoration: black;
+  text-align: left;
+}
+
+.carousel-item-anchor .heading{
+  color: #333;
+  font-size: 22px;
+}
+.carousel-item-anchor h3:hover{
+  color: blue;
+  text-decoration: none;
+}
+
+.carousel-item-anchor p{
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--dark);
+  line-height: normal;
+  text-decoration: none;
+  padding-left: 5px;
+  text-align: left;
+
+}
+
+.carousel-item a{
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+.carousel-item-anchor p:hover{
+  color: blue;
+  text-decoration: none;
+}
+
+.carousel-img {
+ background-color: #ccc;
+}
+
+.carousel-img{  
+  overflow: hidden;
+  }
+  
+  .card-img{
+    /* transition-delay: 1s; */
+    transition-duration: .5s; 
+  }
+  
+  .carousel-box:hover .card-img{
+    transform: scale(1.1);
+  }
+
+@media (max-width: 992px){
+  .background{
+    height: 330px;
+  }
+  .carousel-box {
+    margin-bottom: 20px;
+  }
+ .carousel-item-anchor h5 {
+   font-size: 20px;
+   font-weight: 600;
+   line-height: normal;
+ }
+
+ .carousel-item-anchor p{
+   display: none;
+ }
+
+ .carousel-item-anchor h6{
+   
+  }
+
+ .carousel-artile-background{
+    font-family: solaimanlipi;
+    
+  }
+  #source-name{
+    display: none;
+  }
+}
+ 
+
+@media (max-width: 768px){
+  .carousel-box {
+   margin-bottom: 20px;
+ }
+ .carousel-item-anchor h5 {
+   font-size: 25px;
+   font-weight: 600;
+   
+ }
+ .carousel-item-anchor p{
+  font-size: 1rem;
+ }
+
+ .carousel-item .card-body{
+    font-family: solaimanlipi;
+    box-shadow: var(--shadow); 
+  }
+  .carousel-item-anchor h6{
+   display: none;
+  }
+  #source-name{
+    display: none;
+  }
+}
+
+@media (max-width: 576px){
+
+  .carousel-box {
+    margin-bottom: 20px;
+  }
+  .carousel-item-anchor h5 {
+    font-size: 25px;
+    font-weight: 400;
+  }
+  .carousel-item-anchor p{
+    display: none;
+  }
+  .carousel-item-anchor h6{
+   display: none;
+  }
+  #source-name{
+    display: none;
+  }
+ }
+
+
+/* Horizontal-Short-Four */
+
+@media (max-width: 992px){
+  #horizontal-short-square{
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  #series-marker{
+    display: none;
+  }
+}
+
+
+ @media (max-width: 768px){
+  .ticker-wrapper {
+    display: none;
+  }
+ }
+ @media (max-width: 576px){
+  #horizontal-short-square{
+    margin-bottom: 30px;
+    margin-top: 0px;
+  }
+  #series-marker{
+    display: none;
+  }
+  #horizontal-short-square h6{
+    font-size: 1.5rem;
+  }
+ }
+
+ 
+/* reader's like */
+
+.legend{
+  background: #b30000;  
+}
+.legend a{
+  text-decoration: none;
+}
+.legend ul li a{
+  text-decoration: none;
+}
+
+#legend{
+  border-style: none;
+  background: #b30000;
+  box-shadow: var(--shadow);
+}
+
+#legend a {
+  text-decoration: none;
+}
+
+
+/* Cover Drive */
+ 
+
+
+.devider{
+  margin-top: 10px;
+}
+
+
+
+#welcome-short-box{
+  font-size: 1rem;
+}
+
+
+
+@media (max-width: 576px){
+
+  #welcome-headlines{
+    margin-bottom: 40px;
+  }
+  #welcome-headlines h1{
+    font-size: 23px;
+    font-weight: normal;
+    color: #fff;
+    text-shadow: 10px 3px 15px #000;
+    padding: 80px 0px 0 10px;
+  }
+  
+  #space{
+    margin-bottom: 30PX;
+  }
+ }
+ @media (max-width: 768px){
+  .main-nav ul {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  #welcome-headlines{
+    margin-bottom: 40px;
+  }
+ }
+ 
+ @media (max-width: 992px){
+  .main-nav ul {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  #welcome-headlines{
+    margin-bottom: 40px;
+  }
+ }
+
+/* Video Sector */
+
+#video-sector{
+  background: #052962;
+}
+#video{
+  border: 0.4rem solid var(--primary);
+}
+
+
+/* T-twenty */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { ... }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { ... }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { ... }
+
+ 
+
+
+/* Landing Page */
+
+.landing-page{
+  border-style: none;
+  background: var(--light);
+  box-shadow: var(--shadow);
+}
+#w-author{
+  display: block;
+}
+
+.author-pic {
+  width: 55px;
+  height: 55px;
+  vertical-align: top;
+  border-radius: 50%;
+  border: 1px solid #e6e3e3;
+}
+
+.red {
+  color: darkblue;
+  font-weight: 900;
+}
+
+.source-line {
+  font-size: 18px!important;
+  font-weight: 600;
+}
+
+.date-line {
+  font-size: 12px!important;
+  color: #898989!important;
+}
+
+.font-size10 {
+  font-size: 10px !important;
+}
+
+#landing-page{
+  border-style: none;
+}
+
+ /* Footer */
+ .footer{
+  /* background: url(img/bangladesh1.jpg); */
+  background: rgb(228, 228, 235);
+  box-shadow: 5px 1px 5px 2px;
+ }
+
+ section ul li a{
+
+ }
+ .footer a{
+  text-decoration: none;
+ }
+ .footer a i{
+   font-size: 2.2rem;
+   color: #000;
+ }
+ .footer h6{
+   font-size: 1.1rem;
+   font-weight: 700;
+   color: #000;
+  
+ }
+
